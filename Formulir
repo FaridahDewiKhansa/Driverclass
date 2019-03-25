@@ -1,0 +1,30 @@
+public class formulir{
+	/*(String perusahaan, String departemen, String difisi, String namaLengkap, int noPK, String ttl, String alamatRumah, String alamatRumahKTP, int noNPWP,int noRB, 
+	String namaBank, String email, int tlpRumah, int tlpSeluler, String agama, String jenisKelamin, int umur, String statusPerkawinan, int noKTP, String golDarah*/
+	public static void main (String[] args){
+		datakaryawan as = new datakaryawan ("Sinar Persada", "Sosial", "Personalia Ketenagakerjaan", "Faridah Dewi Khansa", 1177050042, "Bandung, 18 Februari 1999", "jl. Pahlawan No.18B RT 10 RW 13", "jl. Nanas 3 Blok E No.12/21 RT 01 RW 11", 249640168, 104287670, "BRI Syariah", "faridahdewikhansa@gmail.com", 10, 10, "Islam", "Perempuan", 20, "Belum Kawin", 32010258, "A");
+		System.out.println("			FORMULIR DATA KARYAWAN				");
+		System.out.print("------------------------------------------------");
+		System.out.println("------------------------------------------------");
+		System.out.println("Perusahaan				: "+as.Perusahaan());
+		System.out.println("Departemen				: "+as.Departemen());
+		System.out.println("Difisi 					: "+as.Difisi());
+		System.out.println("Nama Lengkap 			: "+as.NamaLengkap());
+		System.out.println("Nomor Pokok Karyawan	: "+as.NoPK());
+		System.out.println("Tempat Tanggal Lahir	: "+as.TTL());
+		System.out.println("Alamat Rumah			: "+as.AlamatRumah());
+		System.out.println("Alamat Rumah (KTP)		: "+as.AlamatRumahKTP());
+		System.out.println("Nomor NPWP				: "+as.NoNPWP());
+		System.out.println("Nomor Rekening Bank		: "+as.NoRB());
+		System.out.println("Nama Bank				: "+as.NamaBank());
+		System.out.println("E-mail					: "+as.Email());
+		System.out.println("Telpon Rumah			: "+as.TlpRumah());
+		System.out.println("Telepon Seluler			: "+as.TlpSeluler());
+		System.out.println("Agama					: "+as.Agama());
+		System.out.println("Jenis Kelamin			: "+as.JenisKelamin());
+		System.out.println("Umur					: "+as.Umur());
+		System.out.println("Status Perkawinan		: "+as.StatusPerkawinan());
+		System.out.println("Nomor KTP				: "+as.NoKTP());
+		System.out.println("Golongan Darah			: "+as.golDarah());
+	}
+}
